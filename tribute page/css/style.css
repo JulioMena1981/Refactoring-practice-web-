@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miniver&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: rgba(97, 5, 2, 0.836);
+    color: snow;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(44, 1, 11, 0.747);
+    margin: 55px 40px;
+    border-radius: 10px;
+}
+
+.header{
+    background-color: rgb(28, 1, 39);
+    text-align: center;
+    width: 100%;
+    border: 3px solid rgb(38, 2, 71);
+    border-radius: 5px;
+}
+
+header > h1{
+    font-family: 'Metal Mania', cursive;
+    font-size: 50px;
+}
+
+.subtitle{
+    font-family: 'Miniver', cursive;
+}
+
+.img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    border: 2px black groove;
+    border-radius: 50%;
+}
+
+.leyend{
+    font-family: 'Coming Soon', cursive;
+}
