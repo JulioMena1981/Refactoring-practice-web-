@@ -6,21 +6,20 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    background-color: rgba(97, 5, 2, 0.836);
-    color: snow;
+    
 }
 
 #content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(44, 1, 11, 0.747);
-    margin: 55px 40px;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
 .header{
     background-color: rgb(28, 1, 39);
+    color: snow;
     text-align: center;
     width: 100%;
     border: 3px solid rgb(38, 2, 71);
@@ -47,4 +46,54 @@ header > h1{
 
 .leyend{
     font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 55px;
+}
+
+.cronology{
+    background-color: ghostwhite;
+    color: black; 
+    font-size: 25px; 
+    padding: 50px 50px;
+    margin-bottom: 55px;
+    
+}
+
+.cronology > h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.cronology ul {
+    text-align: left;
+    
+}
+
+.endofpage{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.endofpage p{
+    background-color: black;
+    border: 2px solid rgb(96, 10, 146);
+    border-radius: 20px;
+    color: snow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-bottom: 40px;
+    padding: 15px;
+    
+}
+
+.endofpage p span::before { 
+    content: '\A'; 
+    white-space: pre;
+}
+
+.endofpage a{
+    text-decoration: none;
+    color: red;
 }
