@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("../img/bg-pattern-top.svg"),
+    url("../img/bg-pattern-bottom.svg");
+    background-position: center,  center;
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: left -500px, right;
+    background-position-y: top -300px, top 400px;
+    margin-left: -700px; 
+}
